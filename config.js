@@ -25,8 +25,8 @@ global.caption = process.env.CAPTION || global.caption || "ᴘᴏᴡᴇʀᴇᴅ 
 
 
 global.devs = "923184474176" // Developer Contact
-global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '') : "2348122446412";
-global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '') : "2348122446412";
+global.sudo = process.env.SUDO ? process.env.SUDO.replace(/[\s+]/g, '2348122446412') : "2348122446412";
+global.owner= process.env.OWNER_NUMBER ? process.env.OWNER_NUMBER.replace(/[\s+]/g, '2348122446412') : "2348122446412";
 
 
 
@@ -37,7 +37,7 @@ global.flush = process.env.FLUSH   || "false"; // Make it "true" if bot not resp
 global.gdbye = process.env.GOODBYE || process.env.CAN_GOODBYE || "false"; 
 global.wlcm  = process.env.WELCOME || process.env.CAN_WELCOME || "false";  // Make it "false" for disable WELCOME 
 
-global.warncount = process.env.WARN_COUNT || 3
+global.warncount = process.env.WARN_COUNT || 6
 global.disablepm = process.env.DISABLE_PM || "false"
 global.disablegroup = process.env.DISABLE_GROUPS || "false", // disable bot in groups when public mode
 
@@ -73,10 +73,10 @@ module.exports = {
   VERSION : process.env.VERSION || "1.3.8",
   caption : global.caption || "" , // ```『 ᴘᴏᴡᴇʀᴇᴅ ʙʏ sᴜʜᴀɪʟ²²¹-ᴍᴅ 』```", //*『sᴜʙsᴄʀɪʙᴇ • sᴜʜᴀɪʟ ᴛᴇᴄʜ』*\n youtube.com/@suhailtechinfo0"),
  
-  author : process.env.PACK_AUTHER|| "TimmyFk",
-  packname: process.env.PACK_NAME || "TimmyFk",
-  botname : process.env.BOT_NAME  || "TIMMY-FK",
-  ownername:process.env.OWNER_NAME|| "TimmyFk",
+  author : process.env.PACK_AUTHER|| "TimmyFk👌🤧",
+  packname: process.env.PACK_NAME || "TimmyFk👌🤧",
+  botname : process.env.BOT_NAME  || "TIMMY-FK👌🤧",
+  ownername:process.env.OWNER_NAME|| "TimmyFk👌🤧",
 
 
   errorChat : process.env.ERROR_CHAT || "",
